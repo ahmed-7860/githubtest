@@ -8,5 +8,3 @@
    yum:
    name: '*'
    state: latest
-- name: Reboot servers
-   reboot: per_reboot_delay:90
