@@ -6,10 +6,9 @@
   tasks:
     - name: Upgrade all packages
       yum:
-	name: '*'
-	state: latest
+      name: '*'
+      state: latest
 			
     - name: Reboot servers
-	reboot:
-	  per_reboot_delay:90
-	msg: "!!!Attention, server will be rebooted in 90 seconds!!!"
+      reboot: per_reboot_delay:90
+	 msg: "!!!Attention, server will be rebooted in 90 seconds!!!"
