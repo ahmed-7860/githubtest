@@ -8,7 +8,6 @@
       yum:
       name: '*'
       state: latest
-			
     - name: Reboot servers
       reboot: per_reboot_delay:90
 	 msg: "!!!Attention, server will be rebooted in 90 seconds!!!"
